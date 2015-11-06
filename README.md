@@ -22,12 +22,11 @@ and install instructions can be [found here](http://nodejs.org/).
 
 ## Install
 
-Download the codebase using either `git clone` for git users or with one of the
-provided download links:
+Download the codebase using either `git clone` for git users or with this
+download link: https://github.com/engrain-io/event-hacknight-electron-boilerplate/archive/master.zip
 
-
-Open a terminal (Linux/Mac OSX) or command prompt (Windows) and `cd` into your
-project directory.
+Once downloaded, open a terminal (Linux/Mac OSX) or command prompt (Windows) and
+`cd` into your project directory.
 
 > **Note:** Your project directory is the directory this README file is located 
   within.
@@ -40,11 +39,7 @@ start the application!
 
 ## Building your application.
 
-Simply open `index.html` in your favorite code editor and beginning editing the
-code to build your application. After you make changes, quit the previous
-running application and once again run `npm start` from your project directory.
-
-Once the requirements have been installed. Download the codebase using either a
-`git clone` or with one of the provided download links:
-
-Once the code is on your computer, open
+Open `index.html` in a code editor and remove the line
+`Make something awesome!`. Next, quit the previous running application
+(`Electron -> Quit`)and once again run `npm start` from your project directory.
+Your application will rebuild and you should see your change. Rinse and repeat!
